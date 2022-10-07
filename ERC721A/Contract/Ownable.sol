@@ -10,6 +10,9 @@
  * `onlyOwner`, which can be applied to your functions to restrict their use to
  * the owner.
  */
+
+import "./Context.sol";
+
 abstract contract Ownable is Context {
     address private _owner;
 
