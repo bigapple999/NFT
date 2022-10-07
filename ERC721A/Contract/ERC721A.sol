@@ -30,6 +30,7 @@ error URIQueryForNonexistentToken();
 
 pragma solidity ^0.8.0;
 
+import "./Address.sol";
 import "./Context.sol";
 import "./ERC165.sol";
 import "./IERC721Metadata.sol";
