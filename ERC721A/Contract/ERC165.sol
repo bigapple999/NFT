@@ -13,6 +13,9 @@
  *
  * Alternatively, {ERC165Storage} provides an easier to use but more expensive implementation.
  */
+
+import "./IERC165.sol";
+
 abstract contract ERC165 is IERC165 {
     /**
      * @dev See {IERC165-supportsInterface}.
