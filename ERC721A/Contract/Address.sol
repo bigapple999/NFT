@@ -1,4 +1,3 @@
-
 library Address {
     /**
      * @dev Returns true if `account` is a contract.
