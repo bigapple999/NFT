@@ -36,6 +36,7 @@ import "./Context.sol";
 import "./ERC165.sol";
 import "./IERC721Metadata.sol";
 import "./IERC721Enumerable.sol";
+import "./IERC721Receiver.sol";
 
 contract ERC721A is Context, ERC165, IERC721, IERC721Metadata, IERC721Enumerable {
     using Address for address;
