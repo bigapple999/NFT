@@ -1,4 +1,9 @@
-library Address {
+// File: @openzeppelin/contracts/utils/Address.sol
+/**
+ * @dev Collection of functions related to the address type
+ */
+ 
+ library Address {
     /**
      * @dev Returns true if `account` is a contract.
      *
