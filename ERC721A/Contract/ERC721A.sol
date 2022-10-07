@@ -1,3 +1,10 @@
+pragma solidity ^0.8.0;
+
+import "./Context.sol";
+import "./ERC165.sol";
+import "./IERC721Metadata.sol";
+import "./IERC721Enumerable.sol";
+
 contract ERC721A is Context, ERC165, IERC721, IERC721Metadata, IERC721Enumerable {
     using Address for address;
     using Strings for uint256;
